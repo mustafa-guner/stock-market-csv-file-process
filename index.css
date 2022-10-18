@@ -1,0 +1,70 @@
+* {
+  padding: 0.5em;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 13px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+table {
+  table-layout: fixed;
+}
+
+table td {
+  width: 33%;
+  border: 1px solid rgba(51, 51, 51, 0.168);
+  /* overflow: auto; */
+}
+
+table input {
+  border: none;
+  outline: none;
+  background: transparent;
+  text-align: center;
+  width: 100%;
+}
+
+.table-hover tbody tr#net-qty-result:hover {
+  background-color: transparent !important;
+}
+
+table thead th input {
+  color: #fff !important;
+}
+
+table td#more-row button:hover {
+  background-color: transparent !important;
+  border: 1px solid transparent !important;
+}
+
+table td#more-row button i {
+  font-size: 12px;
+}
+
+table input.changed {
+  color: #fff !important;
+}
+
+table {
+  text-align: center !important;
+}
+
+table tbody row {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer !important;
+}
+
+button.remove-row {
+  background-color: transparent !important;
+  outline: none;
+}
+
+button.remove-row:focus {
+  box-shadow: none !important;
+}
